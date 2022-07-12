@@ -1,0 +1,105 @@
+# Python: byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+# Jupyter Notebook
+.ipynb_checkpoints
+# numpy saves
+*.npy
+*.npz
+
+# bib files created during latex compilation
+*Notes.bib
+diff/*Notes.bib
+
+# PDF files
+*.pdf
+*.PDF
+
+# Postscript
+*.ps
+*.eps
+
+# Log files
+*.log
+*.LOG
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.eps
+*.gif
+*.tiff
+# Images (caps)
+*.PNG
+*.JPG
+*.JPEG
+*.EPS
+*.GIF
+*.TIFF
+
+# Videos
+*.mp4
+
+# Tars and zips
+*.gz
+*.tar
+*.GZ
+*.TAR
+
+# -------------------------------------------
+# Exclusions from github.com/github/gitignore
+# -------------------------------------------
+
+# Mac OS - General
+.DS_Store
+.AppleDouble
+.LSOverride
+# Mac OS - Icon must end with two \r
+Icon
+# Mac OS - Thumbnails
+._*
+
+# Dropbox settings and caches
+.dropbox
+.dropbox.attr
+.dropbox.cache
+
+# Vim swap files etc.
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+
+## Intermediate documents:
+*.dvi
+*-converted-to.*
+
+## Bibliography auxiliary files (bibtex/biblatex/biber):
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.brf
+*.run.xml
+
+## Build tool auxiliary files:
+*.fdb_latexmk
+*.synctex
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
