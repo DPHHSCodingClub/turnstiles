@@ -13,4 +13,16 @@ to show off tools like . . .
 Stick to numpy, don't use anything more complex than
 base Python + dict, list transformations.
 
-    more complex
+Data sources:
+* http://web.mta.info/developers/turnstile.html
+* https://data.cityofnewyork.us/City-Government/Borough-Boundaries/tqmj-j8zm
+* https://data.ny.gov/Transportation/NYC-Transit-Subway-Entrance-And-Exit-Data/i9wp-a4ja
+
+
+Create movie:
+
+    ffmpeg -y -framerate 15 -pattern_type glob -i "*.png" \
+        -vf 'scale=trunc(iw/2)*2:trunc(ih/2)*2' -pix_fmt yuvj420p \
+        -vcodec libx264 \
+        result.mp4
+
