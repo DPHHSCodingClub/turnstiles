@@ -5,6 +5,7 @@ dependencies:
   - python
   - matplotlib
   - numpy
+  - geopandas
   - pandas
   - pygmt
 # don't fuss about versions for now,
